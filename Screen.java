@@ -109,7 +109,7 @@ public class Screen extends JPanel implements KeyListener, ActionListener{
         } catch (IOException e) {
             System.out.println(e);
         }
-        coinIcon = Toolkit.getDefaultToolkit().createImage("Bitcoin.gif");
+        coinIcon = Toolkit.getDefaultToolkit().createImage("coin.gif");
         swordIcon = Toolkit.getDefaultToolkit().createImage("SWORD.gif");
         potionIcon = Toolkit.getDefaultToolkit().createImage("POTION.gif");
 		xDiff = 0;
