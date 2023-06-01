@@ -11,7 +11,7 @@ public class Coin extends Item {
     // this is the constructor for the coin class
     public Coin(int x, int y) {
         super(x, y);
-        coinGIF = Toolkit.getDefaultToolkit().createImage("Bitcoin.gif");
+        coinGIF = Toolkit.getDefaultToolkit().createImage("coin.gif");
         name = "Coin";
     }
     
